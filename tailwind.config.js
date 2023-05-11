@@ -3,8 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      backgroundImage: {
+        "color-on-image":
+          "linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8) )"
+      },
+    },
+   plugins: [],
+  }
 }
-
