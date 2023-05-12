@@ -10,7 +10,7 @@ export default function Main() {
       <div className='absolute w-full top-[40%] flex  flex-col items-center text-center'>
         <div>
            <h1 className='text-5xl font-extrabold'>Unlimited movies, TV shows, and more</h1>
-           <p className=' text-lg font-medium m-4 '>Watch anywhere. Cancel anytime.</p>
+           <p className=' text-2xl font-medium mt-4 mx-0 mb-0 '>Watch anywhere. Cancel anytime.</p>
         </div>
         <div className='mt-6 mx-0 mb-0'>
           <div className='text-center box-border max-w-5xl py-0 px-8 my-0 mx
