@@ -23,7 +23,7 @@ export default function Animation4() {
                 </div>
             </div>
         </div>
-        <div className='w-[100%] h-2 absolute bottom-2 bg-zinc-800'></div>
+        <div className='w-full h-2 absolute bottom-2 bg-zinc-800'></div>
      </div>
     </>
   )
