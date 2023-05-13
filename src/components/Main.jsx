@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <div className='w-full h-[675px] text-white'>
+    <div className='w-full h-[675px] text-white min-h-[43.75rem] pt-[9.875rem] px-0 pb-16'>
       <div className='w-full h-full'>
         <div className='w-full h-[675px] absolute bg-color-on-image '></div>
         <img className='w-full h-full object-cover' src="/images/hero.jpg" alt="Hero" />
-    </div>
-      <div className='absolute w-full top-[40%] flex  flex-col items-center text-center'>
+      </div>
+      <div className='absolute w-full top-[40%] flex  flex-col items-center text-center mx-auto'>
         <div>
            <h1 className='text-5xl font-extrabold'>Unlimited movies, TV shows, and more</h1>
            <p className=' text-2xl font-medium mt-4 mx-0 mb-0 '>Watch anywhere. Cancel anytime.</p>
@@ -33,6 +33,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
