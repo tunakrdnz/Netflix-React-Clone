@@ -33,8 +33,7 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className='w-full h-2  bottom-2 bg-zinc-800'></div>
-
+      <div className='w-full h-2  bottom-[-0.5rem] absolute bg-zinc-800'></div>
     </div>
   )
 }
