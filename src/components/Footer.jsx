@@ -32,7 +32,9 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div>Language Shift Section</div>
+            <div>
+              Language Selection
+            </div>
             <p className='text-[0.875rem] m-0 px-0 py-3'>Netflix Turkey</p>
         </div>
       </footer>
