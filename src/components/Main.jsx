@@ -3,9 +3,11 @@ import React from 'react'
 export default function Main() {
   return (
     <div className='w-full h-[675px] text-white min-h-[43.75rem] pt-[9.875rem] px-0 pb-16'>
-      <div className='w-full h-full'>
-        <div className='w-full h-[675px] absolute bg-color-on-image '></div>
-        <img className='w-full h-full object-cover' src="/images/hero.jpg" alt="Hero" />
+      <div className='w-full h-full absolute left-0 top-0'>
+        <div className='w-full h-full relative overflow-hidden'>
+          <img className='w-full h-full object-cover ' src="/images/hero.jpg" alt="Hero" />
+          <div className='absolute top-0 left-0 right-0 bottom-0 bg-color-on-image'></div>
+        </div>
       </div>
       <div className='absolute w-full top-[40%] flex  flex-col items-center text-center mx-auto'>
         <div>
