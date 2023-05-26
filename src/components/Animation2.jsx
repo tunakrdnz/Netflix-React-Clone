@@ -11,7 +11,7 @@ export default function Animation2() {
             </div>
             <div className='basis-2/4 p-0  z-[1] '>
                 <div className='relative'>
-                    <img className='w-full' src="./images/animation4.png" alt="Kids" />
+                    <img className='w-full' src="./images/animation2mobile.jpg" alt="Kids" />
                 </div>
             </div>
         </div>
