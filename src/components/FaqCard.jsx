@@ -59,8 +59,8 @@ export default function FaqCard() {
                         </li>
                     </ul>
                     <div className='mt-[2.85rem]'>
-                        <div className='py-0 px-8 text-center box-border max-w-[61.5rem] my-0 mx-auto'>
-                          <form action="">
+                      <div className='text-center box-border max-w-[61rem] py-0 px-8 my-0 mx-auto'>
+                         <form action="">
                            <h3 className='text-xl font-normal'>Ready to watch? Enter your email to create or restart your membership.</h3>
                            <div className='flex flex-row items-start text-left relative w-full mt-4 mx-auto mb-0 max-w-[36.625rem]'>
                             <div className='flex flex-auto relative flex-wrap align-text-top w-auto '>
@@ -74,8 +74,8 @@ export default function FaqCard() {
                         Get Started
                     </button>
                 </div>
-                          </form>
-                        </div>
+                         </form>
+                      </div>
                     </div>
                 </div>
             </div>

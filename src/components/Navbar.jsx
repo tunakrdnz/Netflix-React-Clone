@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -13,7 +14,9 @@ export default function Navbar() {
                 <option lang='tr' label='Türkçe' value="tr-TR">Türkçe</option>
                 <option lang='en' label='English' value="en-TR">Türkçe</option>
               </select>
-            <button className='text-white bg-red-600 hover:bg-red-700 px-4 py-1.5 rounded cursor-pointer'>Sign In</button>
+              <Link to='/login'>
+                <button className='text-white bg-red-600 hover:bg-red-700 px-4 py-1.5 rounded cursor-pointer'>Sign In</button>
+              </Link>
           </div>
         </div>
        </header>
