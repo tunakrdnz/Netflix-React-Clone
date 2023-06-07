@@ -5,8 +5,8 @@ export default function Main() {
     <div className='w-full h-[675px] text-white min-h-[43.75rem] pt-[9.875rem] px-0 pb-16'>
       <div className='w-full h-full absolute left-0 top-0'>
         <div className='w-full h-full relative overflow-hidden'>
-          <img className='w-full h-full object-cover ' src="/images/hero.jpg" alt="Hero" />
-          <div className='absolute top-0 left-0 right-0 bottom-0 bg-color-on-image'></div>
+          <img className='w-full h-full object-cover ' src="https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/57efc9c1-3482-467a-8a78-42c2a0114ad3/TR-en-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="Hero" />
+          <div className='bg-black/60 fixed top-0 left-0 w-full h-screen'></div>
         </div>
       </div>
       <div className='absolute w-full top-[40%] flex  flex-col items-center text-center mx-auto'>
